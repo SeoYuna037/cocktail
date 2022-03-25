@@ -1,0 +1,42 @@
+@use "../../scss/" as *;
+
+.cocktail{
+    float: left;
+    padding: 2rem 0;
+    margin: 2rem;
+    width: 400px;
+    text-align: center;
+    @include flex(center, center);
+    flex-direction: column;
+    background: rgba(255, 255, 255, 0.144);
+    border-radius: 15px;
+    // background: #fff;
+    &-img img{
+        max-width: 300px;
+        border-radius: 15px;
+    }
+    &-info{
+        background-color: #fff;
+        color: #000;
+        border-radius: 15px;
+        width: 100%;
+        h2{
+            font-size: 1.7rem;
+            padding: 1.3rem 0;
+        }
+        span{
+            padding: 1rem;
+        }
+    }
+    &-btn-detail{
+        display: block;
+        background: $main-color;
+        border-radius: 15px;
+        color: #fff;
+        transition: 0.3s;
+        padding: 1rem 0;
+    }
+    &-btn-detail:hover{
+        color:#000;
+    }
+}

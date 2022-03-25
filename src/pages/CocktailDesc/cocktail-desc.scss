@@ -1,0 +1,36 @@
+@use "../../scss/" as *;
+
+.back-btn{
+    padding: 1rem;
+    background: #fff;
+    color: #000;
+    border-radius: 15px;
+    font-size: 1.5rem;
+}
+.cocktail-desc{
+    width: 100%;
+    margin: auto;
+    h2{
+        padding: 1rem;
+        font-size: 3rem;
+    }    
+    &-container{
+        @include flex(center, center);
+        padding: 1.5rem 0;
+        @include tablet{
+            flex-direction: column;
+        }
+    }
+    &-info{
+        max-width: 1000px;
+        margin: 0 2rem;
+        border: 1px solid #fff;
+        font-size: 1.4rem;
+        padding: 2rem;
+        
+    }
+    &-data{
+        display: inline-block;
+        padding: 1rem 0;
+    }
+}
