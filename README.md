@@ -57,4 +57,6 @@ Let's Drink는 CocktailDB API를 활용하여 원하는 칵테일의 이름을 �
 <img src="https://user-images.githubusercontent.com/96972549/160272644-510955ab-8d0f-46eb-8d69-4cac18d24617.gif">
 
 #### 3.카테고리
->아직 개발 
+>아직 개발 진행중입니다
+
+
